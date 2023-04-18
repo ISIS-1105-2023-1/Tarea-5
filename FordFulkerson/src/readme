@@ -1,0 +1,18 @@
+Instrucciones:
+
+1. Descarge el archivo en su PC.
+2. Compile Maxflow y ejecutelo. Le mostrara el MAX FLOW del grafo del archivo grafoPeq.txt.
+Los grafos se pasan de la siguiente forma:
+6 --> Número de vertices
+8 --> Número de ejes
+0 1 2 --> El primer número corresponde al vertice 0 el segundo al vertice 1 y el tercero a la capacidad del eje que los une.
+0 2 3
+1 3 3
+1 4 1
+2 3 1
+2 4 1
+3 5 2
+4 5 3
+
+Tenga en cuenta que como el grafo es dirigido si pongo primero el 0 y luego el 1 significa que el eje va del 0 al 1 y no al revez.
+El grafo se instancia usando una lista de adyacencias.
